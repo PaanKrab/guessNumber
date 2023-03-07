@@ -50,7 +50,8 @@ document.querySelector(".check").addEventListener("click", function() {
   document.querySelector("input").value = null;
   score = 20;
   document.querySelector(".points").textContent = score;
-  document.querySelector("img").src = "https://raw.githubusercontent.com/PaanKrab/guessNumber/main/IMG_20230129_152520.jpg"
+  document.querySelector("img").src = "https://raw.githubusercontent.com/PaanKrab/guessNumber/main/IMG_20230129_152520.jpg";
+  document.querySelector("body").style.backgroundColor = "rgb(245, 233, 244)";
 })
 
 
