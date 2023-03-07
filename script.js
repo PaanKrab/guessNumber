@@ -12,7 +12,7 @@ document.querySelector(".check").addEventListener("click", function() {
       document.querySelector(".message").textContent = "Poprawna Liczba!";
       document.querySelector("body").style.backgroundColor = "green";
       document.querySelector(".qmark").style.width = "180px";
-      document.querySelector("img").src = "IMG_20230129_152524.jpg"
+      document.querySelector("img").src = "https://raw.githubusercontent.com/PaanKrab/guessNumber/main/IMG_20230129_152524.jpg"
   }
   else if (guess > hiddenNumber) {
     if (score > 1) {
