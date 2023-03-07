@@ -46,7 +46,6 @@ document.querySelector(".check").addEventListener("click", function() {
  
   document.querySelector(".again").addEventListener("click", function() {
   hiddenNumber = Math.trunc(Math.random() * 20) + 1;
-  document.querySelector(".qmark").textContent = hiddenNumber;
   document.querySelector(".message").textContent = "Zacznij zgadywanie...";
   document.querySelector("input").value = null;
   score = 20;
