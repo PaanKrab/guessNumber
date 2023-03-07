@@ -1,0 +1,101 @@
+/* font-family: 'Princess Sofia', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Princess Sofia', cursive;
+    background-color: powderblue;
+}
+
+header {
+    display: flex;
+}
+
+button.btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(245, 233, 244);
+    font-family: 'Princess Sofia', cursive;
+    font-size: 16px;
+    border: 2px solid cornflowerblue;
+    border-radius: 15px;
+}
+
+p.between {
+    margin-left: auto;
+    font-size: 18px;
+}
+
+div.line {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width: 100vw;
+    background-color: black; 
+}
+
+div.qmark {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: rgb(245, 233, 244);
+    font-size: 60px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+section.dataRight {
+    position: absolute;
+    right: 8vw;
+    top: 75vh;
+    font-size: 20px;
+}
+
+p.message {
+    margin-bottom: 20px;
+}
+
+section.dataLeft {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 75vh;
+}
+
+input {
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid cornflowerblue;
+    background-color: rgb(245, 233, 244);
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Princess Sofia', cursive;
+}
+
+img {
+    display: block;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid cornflowerblue;
+}

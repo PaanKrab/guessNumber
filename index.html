@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zgadnij liczbę!</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <button class="btn again" value="submit">Jeszcze raz!</button>
+      <p class="between">Pomiędzy 1 a 20</p>
+    </header>
+    <main>
+      <section class="line">
+        <h1>Zgadnij liczbę!</h1>
+        <img src="IMG_20230129_152520.jpg" alt="">
+        <div class="line"></div>
+        <div class="qmark">?</div>
+      </section>
+
+      <section class="dataLeft">
+        <input class="guess" type="number" />
+        <button class="btn check" value="submit">Sprawdź!</button>
+      </section>
+      <section class="dataRight">
+        <p class="message">Zacznij zgadywanie...</p>
+        <p class="score">Punkty: <span class="points">20</span></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
