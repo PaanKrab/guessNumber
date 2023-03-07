@@ -5,7 +5,7 @@ document.querySelector(".check").addEventListener("click", function() {
   //pobieramy wartość z inputa
   const guess = Number(document.querySelector("input").value);
   if (!guess) {
-    document.querySelector(".message").textContent = "Wpisz liczbę!"
+    document.querySelector(".message").textContent = "Wpisz liczbe!"
   }
   else if (guess === hiddenNumber) {
     
@@ -16,13 +16,13 @@ document.querySelector(".check").addEventListener("click", function() {
   }
   else if (guess > hiddenNumber) {
     if (score > 1) {
-    document.querySelector(".message").textContent = "Zbyt duża liczba!";
+    document.querySelector(".message").textContent = "Zbyt duza liczba!";
     score--;
     document.querySelector(".points").textContent = score;
     }
     //0 punktów
     else {
-      document.querySelector(".message").textContent = "Przegrałeś!";
+      document.querySelector(".message").textContent = "Przegrales!";
       document.querySelector(".points").textContent = 0;
       document.querySelector("body").style.backgroundColor = "red";
     }
@@ -30,13 +30,13 @@ document.querySelector(".check").addEventListener("click", function() {
   //jeśli liczba jest mniejsza
   else if (guess < hiddenNumber) {
     if (score > 1) {
-      document.querySelector(".message").textContent = "Zbyt mała liczba!";
+      document.querySelector(".message").textContent = "Zbyt mala liczba!";
       score--;
       document.querySelector(".points").textContent = score;
     }
     //0 punktów
     else {
-      document.querySelector(".message").textContent = "Przegrałeś!";
+      document.querySelector(".message").textContent = "Przegraleś!";
       document.querySelector(".points").textContent = 0;
       document.querySelector("body").style.backgroundColor = "red";
     }
